@@ -1,0 +1,187 @@
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+nav{
+text-transform: uppercase;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    align-items: center;
+    background: black;
+}
+.menu-bg{
+    background: black;
+ 
+}
+.menu a{
+    color: white;
+}
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .menu-nav a{
+     font-size: 1.25em;
+     display: block;
+     padding: 10px;
+ }
+ .home{
+  max-width: 100%;
+  background-image:url("../img/home.jpg");   
+  background-size: cover;
+  height: 600px;  
+  text-align: center;
+  padding-top: 180px;
+ }
+ .home h1{
+     font-size: 48px;
+     color: black;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .quote-externo{
+     max-width: 360px;
+     margin: 0 auto;
+     color:black;
+ }
+
+ .quote-externo p:before, .quote-externo p:after {
+     content: "";
+     display: block;
+     width: 60px;
+     height: 3px;
+     background: black;
+     margin: 10px auto;
+
+
+ }
+ .btn-orcamento{
+     width: 150px;
+     height: 50px;
+     letter-spacing: 0.2em;
+     font-size: 15px;
+     background-color: black;
+     color: white;
+     margin-top: 80px;
+ }
+
+ .icones{
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+
+ }
+
+.container-icones{
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .icones{   
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ .icones-item{
+     flex: 1;
+ }
+
+ .container{
+    margin-top: 20px;
+    background: black;
+    
+ }
+ 
+ .portfolio{
+     max-width: 960px;
+     margin: 0 auto;  
+     
+ }
+
+
+ .list-img{
+    display: flex;   
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+  
+    
+    
+ }
+ .list-img li{
+    flex:1 1 400px;
+    margin: 10px;
+ }
+ 
+ .portfolio h2{
+     color: white;
+     text-transform: uppercase;
+     text-align: center;
+     padding-top: 30px;
+ }
+ .portfolio p{ 
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.portfolio a{
+ 
+   text-align: center;
+   font-size: 15px;
+}
+
+.btn-obras{
+    width: 110PX;
+     height: 30px;
+     letter-spacing: 0.2em;
+     font-size: 15px;
+     background-color:white;
+     color: black;
+     
+}
+ 
+
+.call{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+ 
+ 
+
+
+
