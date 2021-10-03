@@ -1,0 +1,45 @@
+
+.container{
+    background-image:url("../img/bg-sobre.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;   
+    padding-top: 80px; 
+}
+.bg-sobre{
+    text-align: center;
+   
+}
+.bg-sobre h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bg-sobre p{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.quote-externo{
+    max-width: 360px;
+    margin: 0 auto;
+    color:white;
+}
+
+.quote-externo p:before, .quote-externo p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+}
+
+.missao_sobre{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto; 
+}
+
